@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Powertrain & NVH Benchmarking in Battery Electric Vehicles
-feature-img: "assets/img/powertrain-benchmarking.jpg"
-thumbnail: "assets/img/powertrain-benchmarking.jpg"
+feature-img: "assets/img/powertrain.jpg"
+thumbnail: "assets/img/powertrain.jpg"
 tags: [Automotive, Powertrain]
 categories: Automotive
 ---
