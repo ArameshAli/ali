@@ -42,7 +42,7 @@ Film capacitors often use **metallized film**, which is designed to evaporate lo
 
 ---
 
-![Self-Healing Breakdown Zones](/assets/img/self-healing-film-capacitor.jpg)
+![Self-Healing Breakdown Zones](/assets/img/Picture4.jpg)
 
 ---
 
