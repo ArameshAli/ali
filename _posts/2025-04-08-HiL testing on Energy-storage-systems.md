@@ -2,7 +2,7 @@
 layout: post
 title: Tech Stuff example
 color: rgb(250, 50, 50)
-feature-img: "assets/img/Picture2.jpg"
+feature-img: "assets/img/Picture4.jpg"
 thumbnail: "assets/img/thumbnails/Picture4.jpg"
 tags: [Highlight, Markdown]
 ---
