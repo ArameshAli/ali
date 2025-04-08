@@ -1,11 +1,57 @@
 ---
 layout: post
-title: Feature images
-feature-img: "assets/img/feature-img/desk-messy.jpeg"
-thumbnail: "assets/img/thumbnails/feature-img/desk-messy.jpeg"
-tags: [Test, Image]
-categories: Example
+title: Powertrain & NVH Benchmarking in Battery Electric Vehicles
+feature-img: "assets/img/powertrain-benchmarking.jpg"
+thumbnail: "assets/img/powertrain-benchmarking.jpg"
+tags: [Automotive, Powertrain]
+categories: Automotive
 ---
+
+Battery Electric Vehicles (BEVs) present a unique set of challenges and opportunities when it comes to **powertrain design** and **NVH (Noise, Vibration, and Harshness) performance**. During my time at **Toyota**, I worked on NVH benchmarking and powertrain system analysis across different BEV platforms.
+
+---
+
+## ⚙️ Powertrain Architecture Analysis
+
+- Extraction of **RPM**, **torque**, and **PMSM motor behavior** in multiple BEV variants.
+- Used **CATIA V5** and **BMS data** to analyze powertrain component contribution to overall system performance.
+- Supported motor control refinement to improve efficiency and reduce drivetrain ripple.
+
+---
+
+## 🎧 NVH Benchmarking on BEVs
+
+While BEVs eliminate combustion noise, they also expose subtle mechanical or gear-related noises.
+
+- Conducted **Transfer Path Analysis (TPA)** to map sound transmission from motor to cabin.
+- Used **Body Acoustic Sensitivity Mapping** to localize unwanted hums and rattles.
+- Compared NVH signatures across **competitive models** (e.g., Nissan Leaf, VW ID.3).
+
+---
+
+## 🛠 Tools & Methods Used
+
+- **CATIA V5** for design data
+- **TPA software tools**
+- **AutoCAD** for layout interpretation
+- **BMS data analysis**
+- Structured under **V-cycle methodology**
+
+---
+
+## ✅ Results
+
+- Helped prioritize redesign of motor mounts and damping elements.
+- Enabled data-driven selection of quieter drive units for the next-gen platform.
+- Contributed to overall **acoustic comfort benchmarking** for Toyota’s future BEV lineup.
+
+---
+
+🔍 Interested in the technical details or analysis visuals? Check out my [Portfolio](/portfolio) or [About Me](/about).
+
+
+
+
 
 Hopefully you will find enough information about how to set images in your blog here.
 This is an example of a post which includes a feature image specified in the front matter of the post. 
