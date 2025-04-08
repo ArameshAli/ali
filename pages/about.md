@@ -5,11 +5,28 @@ permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
-
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
-
-Head over to the [theme's documentation](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
  
+
+## Welcome to My Professional Portfolio
+
 I am a dedicated **System Engineer** with extensive experience in developing and optimizing complex systems across industries such as automotive, energy, and industrial automation. My professional journey includes impactful roles at **Siemens**, **Hitachi**, and **Toyota**, where I contributed to projects involving system integration, model-based design, and process improvement.
+
+### Professional Background
+
+- **Toyota**: Led wire harness and connector redesign projects, enhancing system integration for the C-HR platform.
+
+- **Hitachi Energy ABB**: Conducted root cause analysis and reliability testing on film capacitors, supporting quality and production teams.
+
+- **Siemens Digital Industries Software**: Engaged in model-based testing and validation for hybrid hydraulic powertrain systems, utilizing tools like Simulink and Polarion.
+
+### Skills and Expertise
+
+- **System Engineering**: Proficient in requirements decomposition, V-cycle methodology, and system modeling.
+
+- **Tools & Technologies**: Experienced with MATLAB, Simulink, CATIA V5, AutoCAD, and Polarion.
+
+- **Standards & Methodologies**: Knowledgeable in ISO 26262, Six Sigma, and DFMEA.
+
+I am passionate about delivering innovative solutions and continuously seek opportunities to apply my skills to challenging projects.
+
+Feel free to explore my portfolio and connect with me for potential collaborations.
