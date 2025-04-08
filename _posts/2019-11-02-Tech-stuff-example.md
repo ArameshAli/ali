@@ -2,177 +2,72 @@
 layout: post
 title: Tech Stuff example
 color: rgb(250, 50, 50)
-feature-img: "assets/img/feature-img/circuit.jpeg"
-thumbnail: "assets/img/thumbnails/feature-img/circuit.jpeg"
+feature-img: "assets/img/Picture2.jpg"
+thumbnail: "assets/img/thumbnails/Picture4.jpg"
 tags: [Highlight, Markdown]
 ---
 
-Let's demo some code snippet, with some mermaid diagrams.
-Because if you put some code in your blog, you would at least make it:
-1. Searchable
-2. Good-looking
+Film capacitors are critical components in high-reliability circuits. Their failure mechanisms can vary based on manufacturing quality, operating environment, and circuit design.
 
-## Search on code
+---
 
-Search should be working even for complicated escape symbols.
+## 🔧 Common Failure Mechanisms in Film Capacitors
 
-```bash
-sed -i 's/\"hostname\"\:.*$/\"hostname\"\: \"'$IPADDR'\"\,/g' open-falcon/agent/config/cfg.json
+1. **Self-Healing Breakdown**  
+   The metallized layer burns away at the fault site, isolating the defect. This prevents catastrophic failure but reduces capacitance over time.
+
+2. **Delamination**  
+   Separation between film layers, often triggered by poor adhesion or high thermal cycling, leading to increased ESR and eventual open circuit.
+
+3. **Moisture Ingress**  
+   Environmental humidity can penetrate non-hermetically sealed capacitors, resulting in insulation degradation or corrosion.
+
+4. **End Spray Defects**  
+   Poor contact at the end spray can lead to intermittent disconnection and arcing.
+
+---
+
+## 🔍 Self-Healing Explained
+
+Film capacitors often use **metallized film**, which is designed to evaporate locally when a fault occurs. This process is known as **self-healing**.
+
+### Benefits:
+- Prevents short circuits
+- Allows capacitor to continue operating after small faults
+- Extends operational lifetime in moderate stress conditions
+
+### Drawbacks:
+- Gradual loss of capacitance
+- Limited number of self-healing events per capacitor
+
+---
+
+![Self-Healing Breakdown Zones](/assets/img/self-healing-film-capacitor.jpg)
+
+---
+
+## 🛠 Field Observations
+
+While working with **Hitachi Energy**, I evaluated several failed film capacitors under:
+
+- Thermal aging tests
+- Overvoltage conditions
+- Micro-sectioning for failure localization
+
+Failures were mapped, and RCA reports were generated recommending better film segmentation and moisture-resistant packaging.
+
+---
+
+**More technical posts** are coming soon — visit [About Me](/about) or [Portfolio](/portfolio) for more!
+
 ```
 
-Or try searching for partial of a command, like this article should be returned when looking for "find grep"
-
-```bash
-find /etc -type f -exec cat '{}' \; | tr -c '.[:digit:]' '\n' | grep '^[^.][^.]*\.[^.][^.]*\.[^.][^.]*\.[^.][^.]*$'
-```
-
-## Code highlighting examples
+## 🔍 Bad segmentation
 
 Because you might put code in your blog post, and you want to make sure it will look good in here. Plus that the search
 function will still be working!
 
-### XML
+## 🔍 Oil leakage
 
-Example from [W3C]
-```xml
-<part number="1976">
-  <name>Windscreen Wiper</name>
-  <description>The Windscreen wiper
-    automatically removes rain
-    from your windscreen, if it
-    should happen to splash there.
-    It has a rubber <ref part="1977">blade</ref>
-    which can be ordered separately
-    if you need to replace it.
-  </description>
-</part>
-```
+during the process of metalization, the oil injection on the surface of the mtalized film capacitors can be problematic, and lead to short circuit. 
 
-### Java
-
-java example
-
-```java
-import java.util.*;
-
-@Example
-public class Demo {
-  private static final String CONSTANT = "String";
-  private Object o;
-  /**
-   * Creates a new demo.
-   * @param o The object to demonstrate.
-   */
-  public Demo(Object o) {
-    this.o = o !== null ? o : new Object();
-    String s = CONSTANT + "Other example of text";
-    int i = 123 - 33 % 11;
-  }
-  public static void main(String[] args) {
-    Demo demo = new Demo();
-    System.out.println(demo.o.toString())
-  }
-}
-```
-
-### Javascript
-
-```javascript
-/**
- * Does a thing
- */
-function helloWorld(param1, param2) {
-    const example = `hello ${param1}`
-    var something = {
-        key: "value",
-        number: 1
-    };
-
-    // Do something
-    if (2.0 % 2 == something) {
-        console.log('Hello, world!');
-    } else {
-        return null;
-    }
-
-    // TODO comment
-}
-```
-
-### JSON
-
-```json
-{
-  "animals": {
-    "tiger": {
-      "name": "tiger",
-      "images": ["🐯", "🐅", "⻁"]
-    },
-    "turtle": {
-      "age": 126,
-      "image": "🐢"
-    },
-    "unicorn": {
-      "doesExist": true,
-      "image": "🦄"
-    }
-  }
-}
-```
-
-### Python
-
-```python
-import os
-
-
-def some_function(param_one="", param_two=0):
-    r'''A docstring'''
-    if param_one > param_two:  # interesting
-        print("Greater")
-    return (param_two - param_one + 1 + 0b10) or None
-
-
-class SomeClass:
-    """ dunno what I am doing """
-
-    def __init__(self):
-        pass
-```
-
-### YAML
-
-You can also render some yaml, like this `_config.yml`:
-
-```yml
-
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# This file, "_config.yml" is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-# SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-
-# THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
-
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
-```
-
-[W3C]: https://www.w3.org/standards/xml/core
