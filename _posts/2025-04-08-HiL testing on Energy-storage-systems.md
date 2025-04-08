@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tech Stuff example
+title: Hil Testing on Energy Storage Systems
 color: rgb(250, 50, 50)
 feature-img: "assets/img/Picture2.jpg"
 thumbnail: "assets/img/thumbnails/Picture4.jpg"
