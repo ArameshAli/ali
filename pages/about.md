@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-feature-img: "assets/img/TOYOTA.jpg"
+feature-img: "assets/img/thumbnails/feature-img/IMG_6740.jpeg"
 tags: [Page]
 ---
  
